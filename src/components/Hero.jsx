@@ -55,7 +55,7 @@ export default function Hero() {
                 </h1>
 
                 {/* Paragraph */}
-                <p className="desc text-gray-400 mt-4 text-base sm:text-sm md:text-base max-w-2xl md:max-w-none leading-relaxed mx-auto md:mx-0">
+                <p className="desc text-gray-400 mt-4 text-sm sm:text-sm md:text-base max-w-2xl md:max-w-none leading-relaxed mx-auto md:mx-0">
                     I am a full-stack developer with hands-on experience in building web applications
                     using Java, Spring Boot, React, JavaScript, and databases like MySQL and MongoDB.
                     I enjoy developing applications from backend APIs to responsive frontends.
