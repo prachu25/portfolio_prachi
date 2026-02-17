@@ -55,26 +55,32 @@ export default function Hero() {
                 </h1>
 
                 {/* Paragraph */}
-                <p className="desc text-gray-400 mt-4 text-sm sm:text-sm md:text-base max-w-2xl md:max-w-none leading-relaxed mx-auto md:mx-0">
+                <p className="desc text-gray-400 mt-4 text-base sm:text-sm md:text-base max-w-2xl md:max-w-none leading-relaxed mx-auto md:mx-0">
                     I am a full-stack developer with hands-on experience in building web applications
                     using Java, Spring Boot, React, JavaScript, and databases like MySQL and MongoDB.
                     I enjoy developing applications from backend APIs to responsive frontends.
                 </p>
 
                 {/* Buttons */}
-                <div className="buttons flex flex-wrap justify-center md:justify-start gap-4 mt-7 mb-4">
+                <div className="buttons flex flex-wrap justify-center md:justify-start gap-3 mt-7 mb-4">
                     <a
                         href="/assets/RESUME-2026.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-cyan-500 to-blue-900 text-gray-950 px-5 py-2.5 rounded-lg"
+                        className="bg-gradient-to-r from-cyan-500 to-blue-900 text-gray-950 
+                                   px-3 py-2 text-sm 
+                                   sm:px-5 sm:py-2.5 sm:text-base 
+                                   rounded-lg"
                     >
                         Download Resume
                     </a>
 
                     <a
                         href="#projects"
-                        className="px-5 py-2.5 border border-gray-500 hover:bg-gray-800 rounded-lg"
+                        className="px-3 py-2 text-sm 
+                                   sm:px-5 sm:py-2.5 sm:text-base 
+                                   border border-gray-500 hover:bg-gray-800 
+                                   rounded-lg"
                     >
                         See Projects
                     </a>

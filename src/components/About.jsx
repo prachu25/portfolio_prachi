@@ -69,7 +69,7 @@ export default function About() {
                     </div>
 
                     <motion.p
-                        className="text-gray-400 mt-4 leading-relaxed text-xs sm:text-sm md:text-base"
+                        className="text-gray-400 mt-4 leading-relaxed text-sm sm:text-sm md:text-base"
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ delay: 0.3 }}
@@ -91,7 +91,7 @@ export default function About() {
                         Contact
                     </h4>
 
-                    <p className="text-gray-400 text-xs sm:text-sm">
+                    <p className="text-gray-400 text-sm sm:text-sm">
                         Email:
                         <a
                             href="mailto:gordeprachi64@gmail.com"
@@ -101,7 +101,7 @@ export default function About() {
                         </a>
                     </p>
 
-                    <p className="text-gray-400 mt-2 text-xs sm:text-sm">
+                    <p className="text-gray-400 mt-2 text-sm sm:text-sm">
                         Location: Amravati, Maharashtra, India
                     </p>
 
